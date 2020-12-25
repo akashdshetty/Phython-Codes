@@ -1,4 +1,3 @@
-x = False
 while True:
     word = ""
 
@@ -12,5 +11,4 @@ while True:
     con = input("""
     Do you want to continue (Y/N) ?:""")
     if con == "N":
-        x = True
         break
